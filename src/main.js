@@ -10,6 +10,12 @@ import './styles/index.less'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+// 动态设置REM值
+import 'amfe-flexible'
+
+// dayjs
+import './utils/dayjs'
+
 Vue.use(Vant)
 
 Vue.config.productionTip = false
